@@ -1,0 +1,24 @@
+Currency Exchange service 
+http://localhost:8000/currency-exchange/from/USD/to/INR
+
+Currency Conversion service
+http://localhost:8100/currency-convertor/from/USD/to/INR/quantity/1000
+http://localhost:8100/currency-convertor-feign/from/EUR/to/INR/quantity/1000
+
+Eureka 
+http://localhost:8761/
+
+API Gateway
+http://localhost:8765/CURRENCY-EXCHANGE-SERVICE/currency-exchange/from/USD/to/INR
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-convertor/from/USD/to/INR/quantity/1000
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-convertor-feign/from/EUR/to/INR/quantity/1000
+
+http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion-service/currency-convertor/from/USD/to/INR/quantity/1000
+http://localhost:8765/currency-conversion-service/currency-convertor-feign/from/EUR/to/INR/quantity/1000
+
+http://localhost:8765/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-convertor/from/USD/to/INR/quantity/1000
+http://localhost:8765/currency-convertor-feign/from/EUR/to/INR/quantity/1000
+
+http://localhost:8765/currency-convertor-new/from/EUR/to/INR/quantity/1000
